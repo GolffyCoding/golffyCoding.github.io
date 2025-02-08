@@ -39964,7 +39964,7 @@ A.PK.prototype={
 K(a){var s,r=null,q=t.w,p=A.b3(a,r,q).w,o=A.b3(a,r,q).w
 q=A.b3(a,r,q).w
 s=t.p
-return A.mL(new A.Ke(r),r,A.pv(!0,A.bz(r,A.at2(A.bz(r,A.dA(A.b([A.bz(r,r,B.n,r,r,new A.bp(r,A.avS(B.lq,new A.qK("images/resume.png")),r,r,r,r,r,B.S),r,2300,r,r,r,r,q.a.a*0.8),A.bz(r,A.dA(A.b([A.el(r,20,r)],s),B.L,B.F,B.P),B.n,B.l,r,r,r,o.a.b,r,r,r,r,p.a.a)],s),B.L,B.F,B.P),B.n,B.l,r,r,r,r,r,r,r,r,r),B.az),B.n,r,r,r,r,2400,r,r,r,r,1920),!0))}}
+return A.mL(new A.Ke(r),r,A.pv(!0,A.bz(r,A.at2(A.bz(r,A.dA(A.b([A.bz(r,r,B.n,r,r,new A.bp(r,A.avS(B.lq,new A.qK("assets/images/resume.png")),r,r,r,r,r,B.S),r,2300,r,r,r,r,q.a.a*0.8),A.bz(r,A.dA(A.b([A.el(r,20,r)],s),B.L,B.F,B.P),B.n,B.l,r,r,r,o.a.b,r,r,r,r,p.a.a)],s),B.L,B.F,B.P),B.n,B.l,r,r,r,r,r,r,r,r,r),B.az),B.n,r,r,r,r,2400,r,r,r,r,1920),!0))}}
 A.Ke.prototype={
 guU(){return B.yx},
 K(a){var s=null,r=A.b([new A.cI(0,B.bn,A.a7(B.c.ap(25.5),B.l.gl()>>>16&255,B.l.gl()>>>8&255,B.l.gl()&255),B.du,20)],t.sq)
@@ -40042,7 +40042,7 @@ A.Ri.prototype={
 K(a){var s,r=null,q=t.w,p=A.b3(a,r,q).w.a.a,o=A.b3(a,r,q).w.a.b
 q=A.b3(a,r,q).w
 s=t.p
-return A.mL(new A.Kf(r),r,A.pv(!0,A.bz(r,A.at2(A.bz(r,A.dA(A.b([A.bz(r,r,B.n,r,r,new A.bp(r,A.avS(B.lq,new A.qK("images/resume.png")),r,r,r,r,r,B.S),r,600,r,r,r,r,q.a.a*0.9),A.bz(r,A.dA(A.b([A.el(r,20,r),A.at2(A.e6(A.b([A.bz(r,r,B.n,r,r,r,r,r,r,r,r,r,r)],s),B.L,B.F,B.P),B.aG)],s),B.L,B.F,B.P),B.n,B.l,r,r,r,o,r,r,r,r,p)],s),B.L,B.F,B.P),B.n,B.l,r,r,r,r,r,r,r,r,r),B.az),B.n,B.l,r,r,r,o,r,r,r,r,p),!0))}}
+return A.mL(new A.Kf(r),r,A.pv(!0,A.bz(r,A.at2(A.bz(r,A.dA(A.b([A.bz(r,r,B.n,r,r,new A.bp(r,A.avS(B.lq,new A.qK("assets/images/resume.png")),r,r,r,r,r,B.S),r,600,r,r,r,r,q.a.a*0.9),A.bz(r,A.dA(A.b([A.el(r,20,r),A.at2(A.e6(A.b([A.bz(r,r,B.n,r,r,r,r,r,r,r,r,r,r)],s),B.L,B.F,B.P),B.aG)],s),B.L,B.F,B.P),B.n,B.l,r,r,r,o,r,r,r,r,p)],s),B.L,B.F,B.P),B.n,B.l,r,r,r,r,r,r,r,r,r),B.az),B.n,B.l,r,r,r,o,r,r,r,r,p),!0))}}
 A.Kf.prototype={
 guU(){return B.yx},
 K(a){var s=null,r=A.b3(a,s,t.w).w.a.a>=768,q=A.b([new A.cI(0,B.bn,A.a7(B.c.ap(25.5),B.l.gl()>>>16&255,B.l.gl()>>>8&255,B.l.gl()&255),B.du,20)],t.sq),p=r?A.e6(A.b([A.at0(B.za,new A.a7U()),B.cW,new A.vh(B.jl,"Articles",B.h2,new A.a7V(a),s),B.yy,new A.vh(B.jm,"About",B.jr,new A.a7W(),s),B.yz],t.p),B.L,B.F,B.P):A.at0(B.T7,new A.a7X())
