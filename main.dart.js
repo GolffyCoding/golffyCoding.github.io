@@ -39609,7 +39609,7 @@ h=J.lC(t.j.a(g.h(h,i)),new A.XA(k),t.l7)
 return new A.by(new A.ai(0,0,0,s),A.dM(A.X(h,!0,h.$ti.i("aq.E")),B.aP,B.I,B.W),j)
 case"Grid":s=k.d
 r=s?48:32
-s=s?4:2
+s=s?4:1
 h=J.cn(t.j.a(g.h(h,i)))
 return new A.by(new A.ai(0,0,0,r),new A.Jd(new A.add(s,16,16,0.8),new A.tM(new A.XB(k),h,!0,!0,!0,j),j,B.ay,!1,j,j,B.JU,j,!0,j,0,j,h,B.a6,B.k7,j,B.L,B.al,j),j)
 default:return B.NV}}}
