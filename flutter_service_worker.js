@@ -114,6 +114,31 @@ self.addEventListener("activate", function(event) {
 // The fetch handler redirects requests for RESOURCE files to the service
 // worker cache.
 self.addEventListener("fetch", (event) => {
+
+  if (event.request.url.includes('/articles/')) {
+    event.respondWith(
+      fetch(event.request)
+        .then(async response => {
+          const html = await response.text();
+          const title = event.request.url.split('/articles/')[1];
+          
+          const newHtml = html.replace(
+            '</head>',
+            `<meta property="og:title" content="${title}">
+             <meta property="og:description" content="Flutter Developer Article">
+             <meta property="og:image" content="${origin}/my.jpg">
+             <meta property="og:url" content="${event.request.url}">
+             </head>`
+          );
+          
+          return new Response(newHtml, {
+            headers: response.headers
+          });
+        })
+    );
+    return;
+  }
+  
   if (event.request.method !== 'GET') {
     return;
   }
